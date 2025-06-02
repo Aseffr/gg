@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест по истории игр</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Тест на знание истории компьютерных игр</h1>
+    </header>
+
+    <main>
+        <form id="quiz-form">
+            <div class="question">
+                <h3>1. Какая игра считается первой коммерческой аркадной игрой?</h3>
+                <label><input type="radio" name="q1" value="a"> Pong</label>
+                <label><input type="radio" name="q1" value="b"> Space Invaders</label>
+                <label><input type="radio" name="q1" value="c"> Computer Space</label>
+            </div>
+
+            <div class="question">
+                <h3>2. В каком году вышла игра Doom, революционизировавшая 3D-графику?</h3>
+                <label><input type="radio" name="q2" value="a"> 1989</label>
+                <label><input type="radio" name="q2" value="b"> 1993</label>
+                <label><input type="radio" name="q2" value="c"> 1997</label>
+            </div>
+
+            <div class="question">
+                <h3>3. Какая игра показана на рекламном баннере этой страницы?</h3>
+                <label><input type="radio" name="q3" value="a"> The Witcher 3</label>
+                <label><input type="radio" name="q3" value="b"> Tainted Grail: The Fall of Avalon</label>
+                <label><input type="radio" name="q3" value="c"> Elden Ring</label>
+            </div>
+
+            <div class="question">
+                <h3>4. Какая игра НЕ упоминалась в видео об эволюции игр?</h3>
+                <label><input type="radio" name="q4" value="a"> Minecraft</label>
+                <label><input type="radio" name="q4" value="b"> Tetris</label>
+                <label><input type="radio" name="q4" value="c"> Fortnite</label>
+                <label><input type="radio" name="q4" value="d"> Все игры были перечислены</label>
+            </div>
+
+            <div class="question">
+                <h3>5. Какой период ознаменовался расцветом MMORPG игр?</h3>
+                <label><input type="radio" name="q5" value="a"> 1980-е</label>
+                <label><input type="radio" name="q5" value="b"> 1990-е</label>
+                <label><input type="radio" name="q5" value="c"> 2000-е</label>
+            </div>
+
+            <button type="submit">Проверить ответы</button>
+        </form>
+
+        <div id="results" style="display: none;">
+            <h2>Ваш результат: <span id="score">0</span>/5</h2>
+            <p id="feedback"></p>
+            <a href="index.html">Вернуться на главную страницу</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Тест по истории игр</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
